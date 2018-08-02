@@ -1,0 +1,27 @@
+.main {
+    background-color: #fff;
+    margin-left: 11em;
+    margin-top: 2em;
+}
+
+body {
+    font-family:Calibri, sans-serif;
+    line-height: .5em;
+}
+
+.year {
+    color: black;
+    font-weight: bold;
+}
+  
+.parentheses {
+    font-style: italic;
+}
+  
+.infoTemplate {
+    font-weight: bold;
+    font-family: consolas, sans-serif;
+    color: #dd7e6b;
+    font-size: 1em;
+    line-height: .2px;
+}
