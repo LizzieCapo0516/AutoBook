@@ -17,7 +17,6 @@ var infoData =
                 "parentCompany": "Volkswagen AG",
                 "firstCar": "Coal Scuttle",
                 "currentLineup": "***",
-                "notableCars": "DB5"
             },
             
             {
@@ -36,7 +35,6 @@ var infoData =
                 "parentCompany": "Volkswagen AG",
                 "firstCar": "Type 2",
                 "currentLineup": "***",
-                "notableCars": "Veyron"
             },
             
             {
@@ -56,7 +54,6 @@ var infoData =
                 "parentCompany": "Not Applicable",
                 "firstCar": "Model A",
                 "currentLineup": "***",
-                "notableCars": "***"
             },
 
             {
@@ -75,7 +72,6 @@ var infoData =
                 "parentCompany": "Hyundai Motor Group",
                 "firstCar": "Pony",
                 "currentLineup": "***",
-                "notableCars": "Sonata"
             },
 
             {
@@ -94,7 +90,6 @@ var infoData =
                 "parentCompany": "Audi",
                 "firstCar": "350 GT",
                 "currentLineup": "***",
-                "notableCars": "Aventador"
             },
 
             {
@@ -113,14 +108,7 @@ var infoData =
                 "parentCompany": "Not Applicable",
                 "firstCar": "***",
                 "currentLineup": "***",
-                "notableCars": "***"
             },
 
         ]
     }
-
-
-var elx = infoData[0]
-var mainDiv = document.getElementById("mainDiv");
-var template = mainDiv.innerHTML;
-mainDiv.innerHTML = Mustache.render(template, infoData)

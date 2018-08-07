@@ -13,7 +13,7 @@
 
 <body>
 <div class="container-fluid">
-    <div id="mainDiv">
+    <div >
         <div class="row">
 
 
@@ -22,13 +22,13 @@
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" onclick="getCarCompany('Aston Martin')" href="#">
                                 Aston Martin
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#" onclick="getCarCompany('Bugatti')" >
                                 Bugatti
                             </a>
                         </li>
@@ -58,8 +58,8 @@
 
 <!-- ~~~~~~~~~~ MIDDLE ~~~~~~~~~~ -->
 
-            <div class="col-8 main pb-5">
-                {{#data}}
+            <div id="mainDiv" class="col-8 main pb-5">
+
                 <h2 class="mt-5">{{company}}</h2>
                 <p class="subtitle mb-5">{{subtitle}}</p>
                 <p><span class="infoTemplate">Year Founded: </span>{{yearFounded}}</p>
@@ -79,8 +79,6 @@
                 <p><span class="infoTemplate">Parent Company: </span>{{parentCompany}}</p>
                 <p><span class="infoTemplate">First Car: </span>{{firstCar}}</p>
                 <p><span class="infoTemplate">Current Lineup: </span>{{currentLineup}}</p>
-                <p><span class="infoTemplate">Notable Cars: </span>{{notableCars}}</p>
-                {{/data}}
             </div>
 
 <!-- ~~~~~~~~~~ RIGHT SIDEBAR ~~~~~~~~~~ -->
@@ -98,6 +96,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.js"></script> 
 <script src="main.js"></script>
 <script src="test.js"></script>
+<script src="app.js"></script>
 
 <!-- ~~~~~~~~~~ NOTES TO SELF ~~~~~~~~~~ -->
 
