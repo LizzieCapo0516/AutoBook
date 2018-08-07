@@ -1,5 +1,6 @@
             {
                 "company": "***",
+                "subtitle": "***",
                 "yearFounded": "***",
                 "countryOfOrigin": "***",
                 "headquarters": "***",
@@ -14,5 +15,5 @@
                 "firstCar": "***",
                 "currentLineup": "***",
                 "notableCars": "***"
-            }
+            },
             

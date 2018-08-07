@@ -2,7 +2,27 @@ var infoData =
     {
         "data": [
             {
+                "company": "Aston Martin",
+                "subtitle": "Aston Martin Lagonda Limited",
+                "yearFounded": "1913",
+                "countryOfOrigin": "England",
+                "headquarters": "Warwick, England, United Kingdom",
+                "standsFor": "Not Applicable",
+                "founder": "Lionel Martin, Robert Bamford",
+                "nameOrigin": "Founder's Surname",
+                "logoOrigin": "***",
+                "slogan":[            
+                    {"bull":"Power, Beauty, Soul"},
+                ],
+                "parentCompany": "Volkswagen AG",
+                "firstCar": "Coal Scuttle",
+                "currentLineup": "***",
+                "notableCars": "DB5"
+            },
+            
+            {
                 "company": "Bugatti",
+                "subtitle": "Bugatti Automobiles S.A.S.",
                 "yearFounded": "1909",
                 "countryOfOrigin": "France",
                 "headquarters": "Molsheim, Alsace, France",
@@ -21,6 +41,7 @@ var infoData =
             
             {
                 "company": "Ford",
+                "subtitle": "Ford Motor Company",
                 "yearFounded": "1903",
                 "countryOfOrigin": "United States of America",
                 "headquarters": "Dearborn, Michigan, United States of America",
@@ -34,6 +55,63 @@ var infoData =
                 ],
                 "parentCompany": "Not Applicable",
                 "firstCar": "Model A",
+                "currentLineup": "***",
+                "notableCars": "***"
+            },
+
+            {
+                "company": "Hyundai",
+                "subtitle": "Hyundai Motor Company",
+                "yearFounded": "1967",
+                "countryOfOrigin": "South Korea",
+                "headquarters": "Seoul, South Korea",
+                "standsFor": "Not Applicable",
+                "founder": "Chung Ju-yung",
+                "nameOrigin": "The word “Hyundai” is the Korean 現代 (“hanja”), which means “modernity.”",
+                "logoOrigin": "***",
+                "slogan":[            
+                    {"bull":"New Thinking, New Possibilities"},
+                ],
+                "parentCompany": "Hyundai Motor Group",
+                "firstCar": "Pony",
+                "currentLineup": "***",
+                "notableCars": "Sonata"
+            },
+
+            {
+                "company": "Lamborghini",
+                "subtitle": "Automobili Lamborghini S.p.A.",
+                "yearFounded": "1963",
+                "countryOfOrigin": "Italy",
+                "headquarters": "Sant'Agata Bolognese",
+                "standsFor": "Not Applicable",
+                "founder": "Ferruccio Lamborghini",
+                "nameOrigin": "Founder's Surname",
+                "logoOrigin": "***",
+                "slogan":[            
+                    {"bull":"***"},
+                ],
+                "parentCompany": "Audi",
+                "firstCar": "350 GT",
+                "currentLineup": "***",
+                "notableCars": "Aventador"
+            },
+
+            {
+                "company": "Toyota",
+                "subtitle": "Toyota Motor Corporation",
+                "yearFounded": "1937",
+                "countryOfOrigin": "Japan",
+                "headquarters": "Toyota, Aichi, Japan",
+                "standsFor": "Not Applicable",
+                "founder": "Kiichiro Toyoda",
+                "nameOrigin": "Founder's Surname",
+                "logoOrigin": "***",
+                "slogan":[            
+                    {"bull":"***"},
+                ],
+                "parentCompany": "Not Applicable",
+                "firstCar": "***",
                 "currentLineup": "***",
                 "notableCars": "***"
             },

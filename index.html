@@ -10,7 +10,7 @@
   <title>Auto Book</title>
 
 </head>
-nnyunby
+
 <body>
   <div class="container">
     <div id="mainDiv">
@@ -18,9 +18,12 @@ nnyunby
        {{#data}}
       
       <div class="row">
-        <div class="col-8 main">
+        <!-- <div class="sidebar-sticky col-5">
+          <p>yup</p>
+        </div> -->
+        <div class="col-8 main ">
           <h2>{{company}}</h2>
-          <br>
+          <p class="subtitle mb-5">{{subtitle}}</p>
           <p><span class="infoTemplate">Year Founded: </span>{{yearFounded}}</p>
           <p><span class="infoTemplate">Country of Origin: </span>{{countryOfOrigin}}</p>
           <p><span class="infoTemplate">Headquarters: </span>{{headquarters}}</p>
@@ -28,9 +31,9 @@ nnyunby
           <p><span class="infoTemplate">Founder: </span>{{founder}}</p>
           <p><span class="infoTemplate">Name Origin: </span>{{nameOrigin}}</p>
           <span class="infoTemplate">Slogan: </span>
-            <ul>
+            <ul class="mt-3">
               {{#slogan}}
-              <li>
+              <li class="mb-3">
                 {{bull}}
               </li>
               {{/slogan}}
@@ -42,7 +45,6 @@ nnyunby
         </div>
       </div>
       {{/data}}
-
     </div>
   </div>
 

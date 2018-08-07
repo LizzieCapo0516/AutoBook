@@ -1,7 +1,9 @@
 .main {
     background-color: #fff;
-    margin-left: 11em;
+    padding-left: 6em;
     margin-top: 2em;
+    
+    top: 0em;
 }
 
 body {
@@ -23,5 +25,38 @@ body {
     font-family: consolas, sans-serif;
     color: #dd7e6b;
     font-size: 1em;
-    line-height: .2px;
+}
+
+.subtitle {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #999999;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+.sidebar {
+    background-color: #EEE;
+    box-shadow: inset -7px 0 8px -6px #cacaca;
+    text-transform: uppercase;
+    padding-top: 3em;
+    /* color: #606060; */
+}
+
+.sidebar-right {
+    background-color: #EEE;
+    box-shadow: inset 9px 0 15px -9px #cacaca;
+    text-transform: uppercase;
+    padding-top: 3em;
+    /* color: #606060; */
+}
+
+.nav-item {
+    margin: 1em;
+    justify-content: center;
 }
